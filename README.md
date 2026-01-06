@@ -1,26 +1,43 @@
-# Soc Ops
+# Social Bingo — Soc Ops
 
-Social Bingo game for in-person mixers. Find people who match the questions and get 5 in a row!
+Welcome to Social Bingo: a playful, customizable icebreaker for teams and meetups. Spin up the app, generate a board, and start finding teammates who match the prompts — get five in a row to win.
 
-<!-- You can remove this message when updating the readme as part of the workshop -->
-👉 **[Follow the Lab Guide](.lab/GUIDE.md)** for instructions on how to set up and customize the game.
+Why you'll love it
+- Fast setup: runs locally with one command.
+- Customizable questions: tailor the board to your event or team culture.
+- Lightweight: single-page React + Vite app that deploys to GitHub Pages.
 
+Get started
 
-## Prerequisites
+Prerequisites:
+- Node.js 22 or higher
 
-- [Node.js 22](https://nodejs.org/) or higher
-
-## Run
+Quick start:
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+Build for production:
 
 ```bash
 npm run build
 ```
 
-Deploys automatically to GitHub Pages on push to `main`.
+Features
+- 5×5 bingo board with a fixed free center.
+- Persisted game state so players can return to their board.
+- Simple theming and question set stored in `src/data/questions.ts` for quick edits.
+
+Contribute
+- Update the question list at `src/data/questions.ts` to add new themes.
+- Open issues or PRs with ideas, themes, or accessibility improvements.
+
+Resources
+- Lab guide and developer instructions: [.lab/GUIDE.md](.lab/GUIDE.md)
+
+License
+- MIT
+
+Have fun! If you want, I can polish the start screen or create a theme selector next.
